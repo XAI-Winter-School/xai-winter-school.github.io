@@ -41,3 +41,23 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+// padding
+.main {
+  padding-left: 2em !important;  // Add left padding
+  width: 100% !important;        // Override sidebar calculations
+  float: none !important;        // Remove float if present
+}
+
+// For mobile responsiveness
+@include breakpoint($medium) {
+  .main {
+    padding-left: 3em;
+  }
+}
+
+@include breakpoint($large) {
+  .main {
+    padding-left: 4em;
+  }
+}
