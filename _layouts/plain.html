@@ -3,15 +3,13 @@
 <head>
     {% include head.html %}
     {% include head/custom.html %}
-    <style>
-        .masthead {
-            margin-bottom: 2rem !important;
-        }
-    </style>
 </head>
 <body>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+    
+    <!-- Add this spacer div -->
+    <div style="height: 1rem; width: 100%; clear: both;"></div>
     
     <!-- Add a container div with padding -->
     <div style="padding: 0 4rem; margin: 1rem auto 0; max-width: 1200px;">
