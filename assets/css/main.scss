@@ -43,21 +43,9 @@
 ;
 
 // padding
-.main {
-  padding-left: 2em !important;  // Add left padding
-  width: 100% !important;        // Override sidebar calculations
-  float: none !important;        // Remove float if present
-}
-
-// For mobile responsiveness
-@include breakpoint($medium) {
-  .main {
-    padding-left: 3em;
-  }
-}
-
-@include breakpoint($large) {
-  .main {
-    padding-left: 4em;
-  }
+body > .initial-content {
+  padding-left: 2em;
+  padding-right: 2em;
+  max-width: 1200px;
+  margin: 0 auto;
 }
