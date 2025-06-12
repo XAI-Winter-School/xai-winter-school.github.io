@@ -9,22 +9,22 @@
 
 main:
   - title: "Home"
-    url: /publications/
+    url: /about/
 
   - title: "Registration"
-    url: /talks/    
+    url: /registration/    
 
   - title: "Schedule"
-    url: /teaching/    
+    url: /schedule/    
     
   - title: "Speakers"
-    url: /portfolio/
+    url: /speakers/
         
   - title: "Organizers"
-    url: /year-archive/
+    url: /organizers/
     
   - title: "Sponsors"
-    url: /cv/
+    url: /sponsors/
     
   # - title: "CV"
   #   url: /cv-json/
