@@ -18,4 +18,4 @@ Register here.
 
 More details coming soon.
 
-![Editing a markdown file for a talk](/images/editing-talk.png)
+![the location is nice!](/assets/acces_campus_pierre_et_marie_curie_r.jpg)
