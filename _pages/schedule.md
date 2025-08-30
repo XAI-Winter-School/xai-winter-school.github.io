@@ -92,7 +92,7 @@ Provisional schedule.
       <td class="lecture">Ronan Sicre (L)</td>
       <td class="lecture">Julie Josse (L)</td>
       <td>OFF / industry side-event</td>
-      <td class="lecture">Julie Josse (L)</td>
+      <td class="lecture">Ronan Sicre (L)</td>
       <td>Contributed talks</td>
     </tr>
     <tr>
@@ -104,7 +104,7 @@ Provisional schedule.
       <td>Contributed talks</td>
       <td>Contributed talks</td>
       <td>OFF / industry side-event</td>
-      <td class="lecture">Ronan Sicre (L)</td>
+      <td>OFF / Contributed talks </td>
       <td>OFF</td>
     </tr>
   </tbody>
