@@ -40,7 +40,7 @@ More details coming soon.
 
 
 <div class="sponsor">
-  <img src="/images/imgswinterschool/pic_SCAI.jpg" alt="SCAI">
+  <img src="/images/imgswinterschool/logo_SCAI.svg" alt="SCAI">
   <div class="info">
     <h3><a href="https://scai.sorbonne-universite.fr/" target="_blank" rel="noopener">SCAI - Sorbonne Center for Artificial Intelligence</a></h3>
     <!-- <p>Sorbonne Center for Artificial Intelligence</p> -->
@@ -48,7 +48,7 @@ More details coming soon.
 </div>
 
 <div class="sponsor">
-  <img src="/images/imgswinterschool/pic_UFA.jpg" alt="UFA">
+  <img src="/images/imgswinterschool/logo_UFA.svg" alt="UFA">
   <div class="info">
     <h3><a href="https://www.dfh-ufa.org/fr/" target="_blank" rel="noopener">UFA - Université Franco-Allemande</a></h3>
     <!-- <p>Université Franco-Allemande</p> -->
@@ -56,7 +56,7 @@ More details coming soon.
 </div>
 
 <div class="sponsor">
-  <img src="/images/imgswinterschool/pic_PEPR.jpg" alt="PEPR">
+  <img src="/images/imgswinterschool/logo_PEPRIA.png" alt="PEPR">
   <div class="info">
     <h3><a href="https://www.pepr-ia.fr/" target="_blank" rel="noopener">PEPR IA - Programme et équipements prioritaires de recherche pour l’intelligence artificielle</a></h3>
     <!-- <p>Programme et équipements prioritaires de recherche pour l’intelligence artificielle</p> -->
@@ -64,7 +64,7 @@ More details coming soon.
 </div>
 
 <div class="sponsor">
-  <img src="/images/imgswinterschool/pic_FMJH.jpg" alt="FMJH">
+  <img src="/images/imgswinterschool/logo_FMJH.svg" alt="FMJH">
   <div class="info">
     <h3><a href="https://www.fondation-hadamard.fr/en/" target="_blank" rel="noopener">FMJH - Fondation Mathématique Jacques Hadamard</a></h3>
     <!-- <p>FMJH</p> -->
@@ -72,7 +72,7 @@ More details coming soon.
 </div>
 
 <div class="sponsor">
-  <img src="/images/imgswinterschool/pic_ELLIS.jpg" alt="ELLIS">
+  <img src="/images/imgswinterschool/logo_ELLIS.png" alt="ELLIS">
   <div class="info">
     <h3><a href="https://ellis.eu/" target="_blank" rel="noopener">ELLIS - European Laboratory for Learning and Intelligent Systems</a></h3>
     <!-- <p>European Laboratory for Learning and Intelligent Systems</p> -->
