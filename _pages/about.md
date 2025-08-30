@@ -14,7 +14,7 @@ Dates: From 20 to 24 October 2025.
 
 Location: [SCAI](https://scai.sorbonne-universite.fr/), Paris.
 
-Register here.
+Please click [here](https://docs.google.com/forms/d/e/1FAIpQLSeUsxnQnBi04v0ep3kpxY-e9y6-hMIak8pMLYVb3tXDvjL3Rg/viewform?usp=dialog) to register for the event. Read more [here](https://xai-winter-school.github.io/registration/).
 
 ---
 
