@@ -66,10 +66,10 @@ Provisional schedule.
     <tr>
       <td>9:00–10:00</td>
       <td class="plenary">Gjergji Kasneci (P)</td>
-      <td class="plenary">Mihaela Van der Schaar (P)</td>
+      <td class="plenary">Krikamol Muandet (P)</td>
       <td class="plenary">Grégoire Montavon (P)</td>
       <td class="plenary">Ulrike von Luxburg (P)</td>
-      <td class="plenary">Krikamol Muandet (P)</td>
+      <td class="plenary">Mihaela Van der Schaar (P)</td>
     </tr>
     <tr>
       <td>10:00–10:30</td>
