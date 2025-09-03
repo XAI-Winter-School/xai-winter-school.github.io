@@ -92,5 +92,17 @@ author_profile: true
   </div>
 </div>
 
+<div class="sponsor">
+  <div class="sponsor-logo">
+    <img src="/images/imgswinterschool/logo_SFDS.png" alt="ELLIS">
+  </div>
+  <div class="info">
+    <h3><a href="https://www.sfds.asso.fr/" target="_blank" rel="noopener">SFdS - Société Française de Statistique</a></h3>
+    <!-- <p>(SFdS) - Société Française de Statistique </p> -->
+  </div>
+</div>
 
+
+
+https://www.sfds.asso.fr/
 
