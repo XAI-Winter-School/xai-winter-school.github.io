@@ -84,7 +84,7 @@ author_profile: true
 
 <div class="sponsor">
   <div class="sponsor-logo">
-    <img src="/images/imgswinterschool/logo_ELLIS_PARIS.png" alt="ELLIS">
+    <img src="/images/imgswinterschool/logo_ELLIS_PARIS_tight.png" alt="ELLIS">
   </div>
   <div class="info">
     <h3><a href="https://ellis.eu/" target="_blank" rel="noopener">ELLIS - European Laboratory for Learning and Intelligent Systems</a></h3>
