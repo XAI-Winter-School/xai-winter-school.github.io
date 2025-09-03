@@ -104,5 +104,4 @@ author_profile: true
 
 
 
-https://www.sfds.asso.fr/
 
