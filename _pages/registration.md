@@ -4,6 +4,13 @@ title: "Registration - Winter School on Causality and Explainable AI"
 author_profile: true
 ---
 
+
+<div style="background-color:#fff3cd; border:1px solid #ffecb5; padding:1rem 1.25rem; border-radius:8px; margin:1.5rem 0; font-size:1.05rem;">
+  ⚠️ <strong>Update:</strong> Thank you very much for your interest in the winter school! Due to the very high number of applicants, new registrations are being placed on a waiting list. More information will be shared in the coming days.
+</div>
+
+---
+
 <p>Participation is free of charge, but registration is mandatory. The deadline to register is October 1st AoE.</p>
 
 <p>
