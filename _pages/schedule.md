@@ -101,7 +101,7 @@ Provisional schedule.
     </tr>
     <tr>
       <td>15:30–17:00</td>
-      <td>Contributed talks</td>
+      <td class="plenary">Arthur Gretton (P)</td>
       <td>Contributed talks</td>
       <td>OFF / industry side-event</td>
       <td>OFF / Contributed talks </td>

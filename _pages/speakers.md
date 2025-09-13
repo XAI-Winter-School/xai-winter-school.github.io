@@ -35,6 +35,15 @@ author_profile: true
 
 
 
+<div class="person">
+  <img src="/images/imgswinterschool/pics_speakers/pic_arthur_gretton.png" alt="Arthur Gretton">
+  <div class="info">
+    <!-- <h3>Arthur Gretton</h3> -->
+    <h3><a href="https://www.gatsby.ucl.ac.uk/~gretton/" target="_blank" rel="noopener">Arthur Gretton</a></h3>
+    <p>Professor at Gatsby Computational Neuroscience Unit - UCL, London, and Research Scientist at Google Deepmind</p>
+  </div>
+</div>
+
 
 <div class="person">
   <img src="/images/imgswinterschool/pics_speakers/pic_erwan_scornet.jpeg" alt="Erwan Scornet">
@@ -59,7 +68,7 @@ author_profile: true
   <div class="info">
     <!-- <h3>Grégoire Montavon</h3> -->
     <h3><a href="https://www.bifold.berlin/people/prof-dr-gregoire-montavon.html" target="_blank" rel="noopener">Grégoire Montavon</a></h3>
-    <p>Professor at Charité Universitätsmedizin Berlin and Research Group Lead in the Berlin Institute for the Foundations of Learning and Data (BIFOLD).</p>
+    <p>Professor at Charité Universitätsmedizin Berlin and Research Group Lead in the Berlin Institute for the Foundations of Learning and Data (BIFOLD)</p>
   </div>
 </div>
 
