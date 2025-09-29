@@ -12,14 +12,14 @@ Winter School on Causality and Explainable AI
  
 Dates: From 20 to 24 October 2025.
 
-Location: [SCAI](https://scai.sorbonne-universite.fr/), in [Jussieu - Paris](https://www.openstreetmap.org/?mlat=48.846031&mlon=2.355529#map=18/48.846031/2.355529).
+Location: [SCAI](https://scai.sorbonne-universite.fr/), in [Jussieu - Paris](https://www.openstreetmap.org/?mlat=48.846031&mlon=2.355529#map=18/48.846031/2.355529). Click [here](/images/imgswinterschool/location/location_SCAI.jpg) to see the precise location.
 
-Please click [here](https://docs.google.com/forms/d/e/1FAIpQLSeUsxnQnBi04v0ep3kpxY-e9y6-hMIak8pMLYVb3tXDvjL3Rg/viewform?usp=dialog) to register for the event. Read more [here](https://xai-winter-school.github.io/registration/).
+
 
 ---
 
 <div style="background-color:#fff3cd; border:1px solid #ffecb5; padding:1rem 1.25rem; border-radius:8px; margin:1.5rem 0; font-size:1.05rem;">
-  ⚠️ <strong>Update:</strong> Thank you very much for your interest in the winter school! Due to the very high number of applicants, new registrations are being placed on a waiting list. More information will be shared in the coming days.
+  ⚠️ <strong>Update:</strong> Thank you very much for your interest in the winter school! Unfortunately, the event has reached full capacity very fast, and we are unable to offer more places this year.  We truly appreciate your interest and encourage you to apply again for future editions.
 </div>
 
 ---
