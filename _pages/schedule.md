@@ -8,12 +8,22 @@ Provisional schedule.
 
 
 <style>
+/* 
 .schedule {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
   font-size: 0.95rem;
 }
+*/
+
+.schedule {
+  width: 75vw;   /* use full viewport width */
+  margin-left: calc(-50vw + 50%); /* center it by shifting */
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
 .schedule th, .schedule td {
   border: 1px solid #ddd;
   padding: 0.75rem;
@@ -30,10 +40,12 @@ Provisional schedule.
 .schedule .plenary {
   background-color: #eaf4ff;
   font-weight: 600;
+  height: 2.5rem;
 }
 .schedule .lecture {
   background-color: #fdf6e3;
   font-weight: 600;
+  height: 3.5rem;
 }
 .schedule .break {
   background-color: #f0f0f0;
@@ -52,6 +64,20 @@ Provisional schedule.
 .schedule .contributed {
   background-color: #e6f9e6;
   font-weight: 500;
+  height: 4.75rem;
+  padding: 0;           /* remove extra padding so 100% really fills */
+}
+.schedule .contrib-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* evenly distribute top & bottom */
+  height: 100%;
+}
+.schedule .contrib-container div {
+  flex: 1;                  /* each speaker gets half height */
+  display: flex;            /* center text vertically */
+  align-items: center;
+  justify-content: center;  /* center text horizontally */
 }
 </style>
 
@@ -105,14 +131,29 @@ Provisional schedule.
     </tr>
     <tr>
       <td>15:30–17:00</td>
-      <td class="contributed">Contributed talks</td>
-      <td class="contributed">Contributed talks</td>
+      <td class="contributed">
+        <div class="contrib-container">
+          <div>Moritz Willig (C)</div>
+          <div>Jonas Wahl (C)</div>
+        </div>
+      </td> 
+      <td class="contributed">
+        <div class="contrib-container">
+          <div>Martin Pawelczyk (C)</div>
+          <div></div>
+        </div>
+      </td> 
       <td>Industry side-event</td>
-      <td class="contributed">Contributed talks</td>
+      <td class="contributed">
+        <div class="contrib-container">
+          <div>Gian Marco Paldino (C)</div>
+          <div>Gabriele Ciravegna (C)</div>
+        </div>
+      </td> 
       <td>OFF</td>
     </tr>
   </tbody>
-  <caption>P = Plenary, L = Lecture</caption>
+  <caption>P = Plenary, L = Lecture, C = Contributed</caption>
 </table>
 
 
