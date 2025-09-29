@@ -12,7 +12,7 @@ Winter School on Causality and Explainable AI
  
 Dates: From 20 to 24 October 2025.
 
-Location: [SCAI](https://scai.sorbonne-universite.fr/), in [Jussieu - Paris](https://www.openstreetmap.org/?mlat=48.846031&mlon=2.355529#map=18/48.846031/2.355529). Click [here](/images/imgswinterschool/location/location_SCAI.jpg) to see the precise location.
+Location: [SCAI](https://scai.sorbonne-universite.fr/), in [Jussieu - Paris](https://www.openstreetmap.org/?mlat=48.846031&mlon=2.355529#map=18/48.846031/2.355529). Click [here](/images/location/location_SCAI.jpg) to see the precise location.
 
 
 
