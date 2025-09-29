@@ -49,6 +49,10 @@ Provisional schedule.
   font-style: italic;
   margin-top: 0.5rem;
 }
+.schedule .contributed {
+  background-color: #e6f9e6;
+  font-weight: 500;
+}
 </style>
 
 <table class="schedule">
@@ -91,9 +95,9 @@ Provisional schedule.
       <td>13:30–15:00</td>
       <td class="lecture">Ronan Sicre (L)</td>
       <td class="lecture">Julie Josse (L)</td>
-      <td>OFF / industry side-event</td>
+      <td>Industry side-event</td>
       <td class="lecture">Ronan Sicre (L)</td>
-      <td>Contributed talks</td>
+      <td class="plenary">Arthur Gretton (P)</td>
     </tr>
     <tr>
       <td>15:00–15:30</td>
@@ -101,12 +105,14 @@ Provisional schedule.
     </tr>
     <tr>
       <td>15:30–17:00</td>
-      <td class="plenary">Arthur Gretton (P)</td>
-      <td>Contributed talks</td>
-      <td>OFF / industry side-event</td>
-      <td>OFF / Contributed talks </td>
+      <td class="contributed">Contributed talks</td>
+      <td class="contributed">Contributed talks</td>
+      <td>Industry side-event</td>
+      <td class="contributed">Contributed talks</td>
       <td>OFF</td>
     </tr>
   </tbody>
   <caption>P = Plenary, L = Lecture</caption>
 </table>
+
+
