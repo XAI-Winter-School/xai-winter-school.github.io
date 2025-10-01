@@ -80,6 +80,15 @@ Provisional schedule.
   justify-content: center;  /* center text horizontally */
 }
 
+.schedule a {
+  text-decoration: none;   /* remove underline */
+  color: #333;             /* darker text */
+  font-weight: 600;        /* semi-bold, less heavy than bold */
+}
+.schedule a:hover {
+  text-decoration: underline; /* show underline only on hover */
+  color: #000;                /* darker on hover */
+}
 
 .speaker-list {
   list-style: none;
