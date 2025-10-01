@@ -188,9 +188,11 @@ List of confirmed speakers:
 
 * <a href="#audrey-annabelle">Audrey Poinsot et Annabelle Blangero</a>  (Ekimetrics)
 
-* <a href="#nicolas-bousquet">Nicolas Bousquet</a> (EDF)
-
 * <a href="#aurore-lomet">Aurore Lomet</a> (CEA)
+
+* <a href="#fabien-faivre">Fabien Faivre</a> (MACIF)
+
+* <a href="#nicolas-bousquet">Nicolas Bousquet</a> (EDF)
 
 
 <!--
@@ -248,6 +250,11 @@ _Abstract goes here…_
 ### <a id="arthur-gretton"></a>Arthur Gretton: *Causal Effect Estimation with Context and Confounders*
 
 **Abstract**: A fundamental causal modelling task is to predict the effect of an intervention (or treatment) on an outcome, given context/covariates. Examples include predicting the effect of a medical treatment on patient health given patient symptoms and demographic information, or predicting the effect of ticket pricing on airline sales given seasonal fluctuations in demand. The problem becomes especially challenging when the treatment and context are complex (for instance, "treatment" might be a web ad design or a radiotherapy plan), and when only observational data is available (i.e., we have access to historical data, but cannot intervene ourselves). The challenge is greater still when the covariates are not observed, and constitute a hidden source of confounding. I will give an overview of some practical tools and methods for estimating causal effects of complex, high dimensional treatments from observational data. The approach is based on conditional feature means, which represent conditional expectations of relevant model features. These features can be deep neural nets (adaptive, finite dimensional, learned from data), or kernel features (fixed, infinite dimensional, enforcing smoothness). When hidden confounding is present, a neural net implementation of instrumental variable regression can be used to correct for this confounding. The methods will be applied to modelling employment outcomes for the US Job Corps program for Disadvantaged Youth, and in policy evaluation for reinforcement learning.
+
+
+### <a id="fabien-faivre"></a>Fabien Faivre: *Causality? What good is IT for an actuary?*
+
+**Abstract**: Actuaries are a centerpiece of any insurance company risk management framework. Actuaries are traditionally in charge of risk assessment for technical pricing and thoughout the years extended their presence to reserving, economic capital evaluation or Assel Liability Management. They routinely suggest risk mitigation strategies be it through reinsurance program design or other means as appropriate. However, despite their skills in statistics, and over the recent years, data science, a nagging gap remains in their training: the absence of any formal causal course syllabus. This talk will go over a personnal journey towards the discovery of causality, potential application for insurance company and the work being currently set up at Macif, a French mutual insurance company, at the interplay of climate risk, prevention and actuarial science.
 
 
 ### <a id="gabriele-ciravegna"></a>Gabriele Ciravegna: *Accurate, Interpretable, Verifiable CBMs*
