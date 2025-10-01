@@ -20,7 +20,7 @@ Provisional schedule.
 .schedule {
   width: 75vw;   /* use full viewport width */
   margin-left: calc(-50vw + 50%); /* center it by shifting */
-  margin: 1.5rem 0;
+  margin: 1.25rem 0.25rem;
   font-size: 0.95rem;
 }
 
@@ -79,7 +79,28 @@ Provisional schedule.
   align-items: center;
   justify-content: center;  /* center text horizontally */
 }
+
+
+.speaker-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.speaker-list li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eee;
+}
+.speaker-list li strong {
+  font-size: 1.05em;
+}
+.speaker-role {
+  color: #555;
+  font-style: italic;
+  margin-left: 0.3rem;
+}
 </style>
+
+
 
 <table class="schedule">
   <thead>
@@ -95,11 +116,11 @@ Provisional schedule.
   <tbody>
     <tr>
       <td>9:00–10:00</td>
-      <td class="plenary">Gjergji Kasneci (P)</td>
-      <td class="plenary">Krikamol Muandet (P)</td>
-      <td class="plenary">Grégoire Montavon (P)</td>
-      <td class="plenary">Ulrike von Luxburg (P)</td>
-      <td class="plenary">Mihaela Van der Schaar (P)</td>
+      <td class="plenary"><a href="#gjergji-kasneci">Gjergji Kasneci (P)</a></td>
+      <td class="plenary"><a href="#krikamol-muandet">Krikamol Muandet (P)</a></td>
+      <td class="plenary"><a href="#gregoire-montavon">Grégoire Montavon (P)</a></td>
+      <td class="plenary"><a href="#ulrike-von-luxburg">Ulrike von Luxburg (P)</a></td>
+      <td class="plenary"><a href="#mihaela-van-der-schaar">Mihaela Van der Schaar (P)</a></td>
     </tr>
     <tr>
       <td>10:00–10:30</td>
@@ -107,11 +128,11 @@ Provisional schedule.
     </tr>
     <tr>
       <td>10:30–12:00</td>
-      <td class="lecture">Julie Josse (L)</td>
-      <td class="lecture">Erwan Scornet (L)</td>
-      <td class="lecture">Ronan Sicre (L)</td>
-      <td class="lecture">Erwan Scornet (L)</td>
-      <td class="lecture">Erwan Scornet (L)</td>
+      <td class="lecture"><a href="#julie-josse">Julie Josse (L)</a></td>
+      <td class="lecture"><a href="#erwan-scornet">Erwan Scornet (L)</a></td>
+      <td class="lecture"><a href="#ronan-sicre">Ronan Sicre (L)</a></td>
+      <td class="lecture"><a href="#erwan-scornet">Erwan Scornet (L)</a></td>
+      <td class="lecture"><a href="#erwan-scornet">Erwan Scornet (L)</a></td>
     </tr>
     <tr>
       <td>12:00–13:30</td>
@@ -119,11 +140,11 @@ Provisional schedule.
     </tr>
     <tr>
       <td>13:30–15:00</td>
-      <td class="lecture">Ronan Sicre (L)</td>
-      <td class="lecture">Julie Josse (L)</td>
-      <td>Industry side-event</td>
-      <td class="lecture">Ronan Sicre (L)</td>
-      <td class="plenary">Arthur Gretton (P)</td>
+      <td class="lecture"><a href="#ronan-sicre">Ronan Sicre (L)</a></td>
+      <td class="lecture"><a href="#julie-josse">Julie Josse (L)</a></td>
+      <td><a href="#industry-side-event">Industry side-event</a></td>
+      <td class="lecture"><a href="#ronan-sicre">Ronan Sicre (L)</a></td>
+      <td class="plenary"><a href="#arthur-gretton">Arthur Gretton (P)</a></td>
     </tr>
     <tr>
       <td>15:00–15:30</td>
@@ -133,21 +154,21 @@ Provisional schedule.
       <td>15:30–17:00</td>
       <td class="contributed">
         <div class="contrib-container">
-          <div>Moritz Willig (C)</div>
-          <div>Jonas Wahl (C)</div>
+          <div><a href="#moritz-willig">Moritz Willig (C)</a></div>
         </div>
       </td> 
       <td class="contributed">
         <div class="contrib-container">
-          <div>Martin Pawelczyk (C)</div>
+          <div><a href="#martin-pawelczyk">Martin Pawelczyk (C)</a></div>
           <div></div>
         </div>
       </td> 
-      <td>Industry side-event</td>
+      <td><a href="#industry-side-event">Industry side-event</a></td>
       <td class="contributed">
         <div class="contrib-container">
-          <div>Gian Marco Paldino (C)</div>
-          <div>Gabriele Ciravegna (C)</div>
+          <div><a href="#gian-marco-paldino">Gian Marco Paldino (C)</a></div>
+          <div><a href="#gabriele-ciravegna">Gabriele Ciravegna (C)</a></div>
+          <div><a href="#jonas-wahl">Jonas Wahl (C)</a></div>
         </div>
       </td> 
       <td>OFF</td>
@@ -155,5 +176,119 @@ Provisional schedule.
   </tbody>
   <caption>P = Plenary, L = Lecture, C = Contributed</caption>
 </table>
+
+
+---
+
+## <a id="industry-side-event"></a>Industry side-event
+
+The industry side-event will highlight how research in causality and explainable AI translates into real-world impact through contributed talks and exchanges with industry researchers. This session offers participants a unique opportunity to see how theory and methodological advances connect to practice, explore career pathways, and engage directly with practitioners driving innovation in AI.
+
+List of confirmed speakers:
+
+* <a href="#audrey-annabelle">Audrey Poinsot et Annabelle Blangero</a>  (Ekimetrics)
+
+* <a href="#nicolas-bousquet">Nicolas Bousquet</a> (EDF)
+
+* <a href="#aurore-lomet">Aurore Lomet</a> (CEA)
+
+
+<!--
+<details>
+  <summary><strong><a href="#audrey-annabelle">Audrey Poinsot et Annabelle Blangero</a></strong>  (Ekimetrics)</summary>
+</details>
+<details>
+  <summary><strong><a href="#nicolas-bousquet">Nicolas Bousquet</a></strong>(EDF)</summary>
+</details>
+<details>
+  <summary><strong><a href="#aurore-lomet">Aurore Lomet</a></strong>(CEA)</summary>
+</details>
+-->
+
+
+
+## Abstracts
+
+<!-- 
+### <a id="gjergji-kasneci"></a>Gjergji Kasneci
+_Abstract goes here…_
+-->
+
+<!-- 
+### <a id="krikamol-muandet"></a>Krikamol Muandet
+_Abstract goes here…_
+-->
+
+<!-- ### <a id="julie-josse"></a>Julie Josse
+_Abstract goes here…_
+-->
+
+<!-- 
+### <a id="erwan-scornet"></a>Erwan Scornet
+_Abstract goes here…_
+-->
+
+<!-- 
+### <a id="ronan-sicre"></a>Ronan Sicre
+_Abstract goes here…_
+-->
+
+<!-- ### <a id="jonas-wahl"></a>Jonas Wahl
+_Abstract goes here…_
+-->
+
+<!-- 
+### <a id="martin-pawelczyk"></a>Martin Pawelczyk
+_Abstract goes here…_
+-->
+
+### <a id="arthur-gretton"></a>Arthur Gretton: *Causal Effect Estimation with Context and Confounders*
+
+**Abstract**: A fundamental causal modelling task is to predict the effect of an intervention (or treatment) on an outcome, given context/covariates. Examples include predicting the effect of a medical treatment on patient health given patient symptoms and demographic information, or predicting the effect of ticket pricing on airline sales given seasonal fluctuations in demand. The problem becomes especially challenging when the treatment and context are complex (for instance, "treatment" might be a web ad design or a radiotherapy plan), and when only observational data is available (i.e., we have access to historical data, but cannot intervene ourselves). The challenge is greater still when the covariates are not observed, and constitute a hidden source of confounding. I will give an overview of some practical tools and methods for estimating causal effects of complex, high dimensional treatments from observational data. The approach is based on conditional feature means, which represent conditional expectations of relevant model features. These features can be deep neural nets (adaptive, finite dimensional, learned from data), or kernel features (fixed, infinite dimensional, enforcing smoothness). When hidden confounding is present, a neural net implementation of instrumental variable regression can be used to correct for this confounding. The methods will be applied to modelling employment outcomes for the US Job Corps program for Disadvantaged Youth, and in policy evaluation for reinforcement learning.
+
+
+### <a id="gabriele-ciravegna"></a>Gabriele Ciravegna: *Accurate, Interpretable, Verifiable CBMs*
+
+**Abstract**: I will present a concise overview of a research trajectory aimed at making Concept Bottleneck Models (CBMs) accurate, interpretable, and verifiable. CBMs are transparent neural networks as they predict a set of human-understandable concepts before producing the final output. However, early CBMs faced a trade-off between accuracy and transparency. Concept Embedding Models (CEMs) addressed this by learning rich, high-dimensional concept representations that enable test-time interventions without sacrificing performance. Yet, both CBMs and CEMs mainly rely on black-box task predictors, limiting their interpretability. The Deep Concept Reasoner (DCR) introduced a neural-symbolic layer that constructs logic rules over concepts for prediction, achieving full transparency but lacking formal verifiability. The Concept-based Memory Reasoner (CMR) resolves this by incorporating a memory of trainable rules, enabling formal verification, rule-level interventions, and pre-deployment checks. Notably, CMR integrates all three properties, representing an accurate, interpretable, and verifiable CBM.
+
+
+### <a id="gian-marco-paldino"></a>Gian Marco Paldino: *Causal Discovery in Multivariate Time Series through Mutual Information Featurization*
+
+**Abstract**: Our work addresses the fundamental challenge of discovering causal relationships in complex multivariate time series. Traditional methods often struggle with restrictive linear assumptions or become uninformative in the presence of intricate, non-linear dynamics. We propose Temporal Dependency to Causality (TD2C), a supervised learning framework that shifts from statistical testing to pattern recognition. TD2C learns to recognize causal signatures from information-theoretic and statistical descriptors, demonstrating remarkable zero-shot generalization and state-of-the-art performance, particularly in high-dimensional and non-linear settings. (**Related paper**: https://arxiv.org/abs/2508.01848)
+
+
+
+### <a id="gregoire-montavon"></a>Grégoire Montavon: *Uncovering input-target associations with Explainable AI*
+
+**Abstract**: Explainable AI (XAI) has become an essential technology for promoting transparency in machine learning (ML). However, Explainable AI offers more than just a framework for verifying ML models. It also provides a fitting framework for identifying input-target relationships in a broader range of systems of interest. Unlike basic correlational analyses, an XAI algorithm combined with a powerful ML model can filter out weak correlates in the data and identify combinations of input variables that are the most predictive. In this talk, I will present recent applications of this approach in the context of cancer to improve understanding of regulatory networks and treatment outcomes. In the second part of the presentation, I will transition from input-target relationships to input-uncertainty relationships (e.g. in electricity markets) and demonstrate how Explainable AI methods can be tailored for this type of analysis.
+
+
+
+### <a id="mihaela-van-der-schaar"></a>Mihaela Van der Schaar: *It’s Time We Talked About Time: Making Time Central to Interpretability and Causality*
+
+
+
+### <a id="moritz-willig"></a>Moritz Willig: *Beyond Causal Parrots: The Role of Meta-Causality for Genuine Causal Understanding*
+
+**Abstract**: The majority of today's machine learning models are trained using associational methods, raising fundamental questions about their ability to advance beyond the first rung of the causal ladder. While natural language allows for the expression of higher-level causal facts within training data, large language models often still act as mere "Causal Parrots". They mimic causal language but lack an understanding of the underlying mechanisms. This prompts a fundamental question: can systems achieve genuine understanding without knowing how their own (causal) knowledge is formed? In this talk, I introduce Meta-Causal Models, a novel framework designed to explicitly model and reason about the emergence and change of causal relationships. I demonstrate its power through applications in qualitative modeling, attribution under switching causal relations, and adaptive decision-making. Ultimately, I argue that meta-causal understanding may be the dividing line between systems that merely describe the world from those that truly understand it.
+
+
+
+
+### <a id="nicolas-bousquet"></a>Nicolas Bousquet: *An overview of works on AI explainability for critical systems at EDF*
+
+**Abstract**: The use of AI tools to support the management of existing critical systems or to explore new scenarios represents a major challenge for an energy company such as EDF. Over the past several years, alongside the growing development of AI-based tools aimed at improving the management of electricity production, distribution, and consumption, EDF — in close collaboration with its scientific partners — has made significant investments in the critical analysis, methodological advancement, and dissemination of knowledge on explainability-related topics. This presentation aims to summarize this ongoing effort, highlight the major scientific and operational results achieved, and provide an overview of the key research currently underway.
+
+
+
+
+
+### <a id="ulrike-von-luxburg"></a>Ulrike von Luxburg: *Informative explanations only exist for simple functions*
+
+**Abstract**: Many researchers have suggested that local post-hoc explanation algorithms can be used to gain insights into the behavior of complex machine learning models. However, theoretical guarantees about such algorithms only exist for simple decision functions, and one might wonder why is this the case. In my talk I'll introduce a general, learning-theory-based framework for what it means for an explanation to provide information about a decision function. With this approach, we show that many popular explanation algorithms are not informative when applied to complex decision functions, providing a rigorous mathematical rejection of the idea that it should be possible to explain any model. (**Related paper**: https://arxiv.org/abs/2508.11441)
+
+
+
+
 
 
