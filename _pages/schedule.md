@@ -168,8 +168,8 @@ Provisional schedule.
       </td> 
       <td class="contributed">
         <div class="contrib-container">
-          <div><a href="#martin-pawelczyk">Martin Pawelczyk (C)</a></div>
           <div><a href="#gabriele-ciravegna">Gabriele Ciravegna (C)</a></div>
+          <div><a href="#martin-pawelczyk">Martin Pawelczyk (C)</a></div>
           <div></div>
         </div>
       </td> 
