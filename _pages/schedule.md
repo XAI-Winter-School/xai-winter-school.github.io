@@ -169,6 +169,7 @@ Provisional schedule.
       <td class="contributed">
         <div class="contrib-container">
           <div><a href="#martin-pawelczyk">Martin Pawelczyk (C)</a></div>
+          <div><a href="#gabriele-ciravegna">Gabriele Ciravegna (C)</a></div>
           <div></div>
         </div>
       </td> 
@@ -176,7 +177,6 @@ Provisional schedule.
       <td class="contributed">
         <div class="contrib-container">
           <div><a href="#gian-marco-paldino">Gian Marco Paldino (C)</a></div>
-          <div><a href="#gabriele-ciravegna">Gabriele Ciravegna (C)</a></div>
           <div><a href="#jonas-wahl">Jonas Wahl (C)</a></div>
         </div>
       </td> 
