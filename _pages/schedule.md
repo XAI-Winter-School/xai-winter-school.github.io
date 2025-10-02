@@ -170,7 +170,6 @@ Provisional schedule.
         <div class="contrib-container">
           <div><a href="#gabriele-ciravegna">Gabriele Ciravegna (C)</a></div>
           <div><a href="#martin-pawelczyk">Martin Pawelczyk (C)</a></div>
-          <div></div>
         </div>
       </td> 
       <td><a href="#industry-side-event">Industry side-event</a></td>
