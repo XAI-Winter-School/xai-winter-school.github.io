@@ -223,11 +223,6 @@ List of confirmed speakers:
 ## Abstracts
 
 <!-- 
-### <a id="gjergji-kasneci"></a>Gjergji Kasneci
-_Abstract goes here…_
--->
-
-<!-- 
 ### <a id="krikamol-muandet"></a>Krikamol Muandet
 _Abstract goes here…_
 -->
@@ -246,40 +241,37 @@ _Abstract goes here…_
 _Abstract goes here…_
 -->
 
-<!-- ### <a id="jonas-wahl"></a>Jonas Wahl
-_Abstract goes here…_
--->
-
 <!-- 
 ### <a id="martin-pawelczyk"></a>Martin Pawelczyk
 _Abstract goes here…_
 -->
 
 ### <a id="arthur-gretton"></a>Arthur Gretton: *Causal Effect Estimation with Context and Confounders*
-
 **Abstract**: A fundamental causal modelling task is to predict the effect of an intervention (or treatment) on an outcome, given context/covariates. Examples include predicting the effect of a medical treatment on patient health given patient symptoms and demographic information, or predicting the effect of ticket pricing on airline sales given seasonal fluctuations in demand. The problem becomes especially challenging when the treatment and context are complex (for instance, "treatment" might be a web ad design or a radiotherapy plan), and when only observational data is available (i.e., we have access to historical data, but cannot intervene ourselves). The challenge is greater still when the covariates are not observed, and constitute a hidden source of confounding. I will give an overview of some practical tools and methods for estimating causal effects of complex, high dimensional treatments from observational data. The approach is based on conditional feature means, which represent conditional expectations of relevant model features. These features can be deep neural nets (adaptive, finite dimensional, learned from data), or kernel features (fixed, infinite dimensional, enforcing smoothness). When hidden confounding is present, a neural net implementation of instrumental variable regression can be used to correct for this confounding. The methods will be applied to modelling employment outcomes for the US Job Corps program for Disadvantaged Youth, and in policy evaluation for reinforcement learning.
 
 
 ### <a id="fabien-faivre"></a>Fabien Faivre: *Causality? What good is IT for an actuary?*
-
 **Abstract**: Actuaries are a centerpiece of any insurance company risk management framework. Actuaries are traditionally in charge of risk assessment for technical pricing and thoughout the years extended their presence to reserving, economic capital evaluation or Assel Liability Management. They routinely suggest risk mitigation strategies be it through reinsurance program design or other means as appropriate. However, despite their skills in statistics, and over the recent years, data science, a nagging gap remains in their training: the absence of any formal causal course syllabus. This talk will go over a personnal journey towards the discovery of causality, potential application for insurance company and the work being currently set up at Macif, a French mutual insurance company, at the interplay of climate risk, prevention and actuarial science.
 
 
 ### <a id="gabriele-ciravegna"></a>Gabriele Ciravegna: *Accurate, Interpretable, Verifiable CBMs*
-
 **Abstract**: I will present a concise overview of a research trajectory aimed at making Concept Bottleneck Models (CBMs) accurate, interpretable, and verifiable. CBMs are transparent neural networks as they predict a set of human-understandable concepts before producing the final output. However, early CBMs faced a trade-off between accuracy and transparency. Concept Embedding Models (CEMs) addressed this by learning rich, high-dimensional concept representations that enable test-time interventions without sacrificing performance. Yet, both CBMs and CEMs mainly rely on black-box task predictors, limiting their interpretability. The Deep Concept Reasoner (DCR) introduced a neural-symbolic layer that constructs logic rules over concepts for prediction, achieving full transparency but lacking formal verifiability. The Concept-based Memory Reasoner (CMR) resolves this by incorporating a memory of trainable rules, enabling formal verification, rule-level interventions, and pre-deployment checks. Notably, CMR integrates all three properties, representing an accurate, interpretable, and verifiable CBM.
 
 
 ### <a id="gian-marco-paldino"></a>Gian Marco Paldino: *Causal Discovery in Multivariate Time Series through Mutual Information Featurization*
-
 **Abstract**: Our work addresses the fundamental challenge of discovering causal relationships in complex multivariate time series. Traditional methods often struggle with restrictive linear assumptions or become uninformative in the presence of intricate, non-linear dynamics. We propose Temporal Dependency to Causality (TD2C), a supervised learning framework that shifts from statistical testing to pattern recognition. TD2C learns to recognize causal signatures from information-theoretic and statistical descriptors, demonstrating remarkable zero-shot generalization and state-of-the-art performance, particularly in high-dimensional and non-linear settings. (**Related paper**: https://arxiv.org/abs/2508.01848)
 
 
+### <a id="gjergji-kasneci"></a>Gjergji Kasneci: *Structure-Aware Actionable Recourse and Graph Counterfactuals*
+**Abstract**: Modern AI must answer two user-centric questions: why did I get this outcome? and what can I change to obtain a better one? We begin with algorithmic recourse and show that feasible interventions must respect statistical dependencies and uncertainty; otherwise, “advice” breaks under recalibration, deletion, or user noise. Beyond tabular settings, we analyze counterfactual explanations in graph data, where dependencies are explicit via edges but structural plausibility is brittle and often dynamic. We introduce structure-aware counterfactuals that preserve global spectral style while adjusting local content to flip a model’s decision. This results in valid, faithful explanations and actionable guidance for end-users across diverse graph domains.
+
 
 ### <a id="gregoire-montavon"></a>Grégoire Montavon: *Uncovering input-target associations with Explainable AI*
-
 **Abstract**: Explainable AI (XAI) has become an essential technology for promoting transparency in machine learning (ML). However, Explainable AI offers more than just a framework for verifying ML models. It also provides a fitting framework for identifying input-target relationships in a broader range of systems of interest. Unlike basic correlational analyses, an XAI algorithm combined with a powerful ML model can filter out weak correlates in the data and identify combinations of input variables that are the most predictive. In this talk, I will present recent applications of this approach in the context of cancer to improve understanding of regulatory networks and treatment outcomes. In the second part of the presentation, I will transition from input-target relationships to input-uncertainty relationships (e.g. in electricity markets) and demonstrate how Explainable AI methods can be tailored for this type of analysis.
 
+
+### <a id="jonas-wahl"></a>Jonas Wahl: *Are our DAGs correct? Recent developments in causal discovery evaluation*
+**Abstract**: Causal graphical models are considered important tools to integrate expert knowledge into statistical data analysis. As a consequence, practitioners often face the challenge to evaluate the quality of their hypothesized causal models. This issue becomes particularly salient for causal graphical models obtained through a causal discovery method in which case most or all of the available data has already been used in the discovery task. In this talk, we will review recent developments regarding the evaluation of causal structure learning methods and the quality of their outputs. In particular, we will discuss to which degree assumption violations can be detected in causal discovery and how method testing often introduces additional assumptions that need to be weighted carefully against the assumptions of the initial learning algorithm.
 
 
 ### <a id="mihaela-van-der-schaar"></a>Mihaela Van der Schaar: *It’s Time We Talked About Time: Making Time Central to Interpretability and Causality*
@@ -287,14 +279,12 @@ _Abstract goes here…_
 
 
 ### <a id="moritz-willig"></a>Moritz Willig: *Beyond Causal Parrots: The Role of Meta-Causality for Genuine Causal Understanding*
-
 **Abstract**: The majority of today's machine learning models are trained using associational methods, raising fundamental questions about their ability to advance beyond the first rung of the causal ladder. While natural language allows for the expression of higher-level causal facts within training data, large language models often still act as mere "Causal Parrots". They mimic causal language but lack an understanding of the underlying mechanisms. This prompts a fundamental question: can systems achieve genuine understanding without knowing how their own (causal) knowledge is formed? In this talk, I introduce Meta-Causal Models, a novel framework designed to explicitly model and reason about the emergence and change of causal relationships. I demonstrate its power through applications in qualitative modeling, attribution under switching causal relations, and adaptive decision-making. Ultimately, I argue that meta-causal understanding may be the dividing line between systems that merely describe the world from those that truly understand it.
 
 
 
 
 ### <a id="nicolas-bousquet"></a>Nicolas Bousquet: *An overview of works on AI explainability for critical systems at EDF*
-
 **Abstract**: The use of AI tools to support the management of existing critical systems or to explore new scenarios represents a major challenge for an energy company such as EDF. Over the past several years, alongside the growing development of AI-based tools aimed at improving the management of electricity production, distribution, and consumption, EDF — in close collaboration with its scientific partners — has made significant investments in the critical analysis, methodological advancement, and dissemination of knowledge on explainability-related topics. This presentation aims to summarize this ongoing effort, highlight the major scientific and operational results achieved, and provide an overview of the key research currently underway.
 
 
@@ -302,7 +292,6 @@ _Abstract goes here…_
 
 
 ### <a id="ulrike-von-luxburg"></a>Ulrike von Luxburg: *Informative explanations only exist for simple functions*
-
 **Abstract**: Many researchers have suggested that local post-hoc explanation algorithms can be used to gain insights into the behavior of complex machine learning models. However, theoretical guarantees about such algorithms only exist for simple decision functions, and one might wonder why is this the case. In my talk I'll introduce a general, learning-theory-based framework for what it means for an explanation to provide information about a decision function. With this approach, we show that many popular explanation algorithms are not informative when applied to complex decision functions, providing a rigorous mathematical rejection of the idea that it should be possible to explain any model. (**Related paper**: https://arxiv.org/abs/2508.11441)
 
 
