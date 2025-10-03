@@ -232,11 +232,6 @@ _Abstract goes here…_
 -->
 
 <!-- 
-### <a id="erwan-scornet"></a>Erwan Scornet
-_Abstract goes here…_
--->
-
-<!-- 
 ### <a id="ronan-sicre"></a>Ronan Sicre
 _Abstract goes here…_
 -->
@@ -248,6 +243,10 @@ _Abstract goes here…_
 
 ### <a id="arthur-gretton"></a>Arthur Gretton: *Causal Effect Estimation with Context and Confounders*
 **Abstract**: A fundamental causal modelling task is to predict the effect of an intervention (or treatment) on an outcome, given context/covariates. Examples include predicting the effect of a medical treatment on patient health given patient symptoms and demographic information, or predicting the effect of ticket pricing on airline sales given seasonal fluctuations in demand. The problem becomes especially challenging when the treatment and context are complex (for instance, "treatment" might be a web ad design or a radiotherapy plan), and when only observational data is available (i.e., we have access to historical data, but cannot intervene ourselves). The challenge is greater still when the covariates are not observed, and constitute a hidden source of confounding. I will give an overview of some practical tools and methods for estimating causal effects of complex, high dimensional treatments from observational data. The approach is based on conditional feature means, which represent conditional expectations of relevant model features. These features can be deep neural nets (adaptive, finite dimensional, learned from data), or kernel features (fixed, infinite dimensional, enforcing smoothness). When hidden confounding is present, a neural net implementation of instrumental variable regression can be used to correct for this confounding. The methods will be applied to modelling employment outcomes for the US Job Corps program for Disadvantaged Youth, and in policy evaluation for reinforcement learning.
+
+
+### <a id="erwan-scornet"></a>Erwan Scornet: *Explainability via tree-based methods*
+**Abstract**: In many sensitive areas like medicine, designing an algorithm with good predictive performances is not enough: there is a need to understand the decision process at work inside the algorithm to check for undesirable behavior (e.g., fairness issues) or to gain knowledge about the underlying phenomenon. Numerous (heuristical) tools have been proposed to open black-box algorithms in order to understand their prediction. Variable importances are among the most explainable tools as they are generally easy to compute and understand at first sight. In this lecture, we will talk about tree-based methods and how variable importances can be used to provide (un)clear explanations about their decision process. We will also take a look at decision rules that can directly provide interpretable predictions.
 
 
 ### <a id="fabien-faivre"></a>Fabien Faivre: *Causality? What good is IT for an actuary?*
