@@ -232,11 +232,6 @@ _Abstract goes here…_
 -->
 
 <!-- 
-### <a id="ronan-sicre"></a>Ronan Sicre
-_Abstract goes here…_
--->
-
-<!-- 
 ### <a id="martin-pawelczyk"></a>Martin Pawelczyk
 _Abstract goes here…_
 -->
@@ -287,6 +282,9 @@ _Abstract goes here…_
 **Abstract**: The use of AI tools to support the management of existing critical systems or to explore new scenarios represents a major challenge for an energy company such as EDF. Over the past several years, alongside the growing development of AI-based tools aimed at improving the management of electricity production, distribution, and consumption, EDF — in close collaboration with its scientific partners — has made significant investments in the critical analysis, methodological advancement, and dissemination of knowledge on explainability-related topics. This presentation aims to summarize this ongoing effort, highlight the major scientific and operational results achieved, and provide an overview of the key research currently underway.
 
 
+
+### <a id="ronan-sicre"></a>Ronan Sicre: *Visual explainability*
+**Abstract**: This course aims at giving a panorama of XAI methods applied to visual recognition models. We will first introduce the computer vision fields through the many tasks that are studied in the field. We will then detail the specifics of convolutional architectures, then detail a number of post-hoc methods designed for such models. We will later focus on the evaluation of these methods, with some discussions. Then, we will study transformers architectures and present post-hoc methods designed for such models. We will then move to transparency and hybrid methods, before discussing prototypes and part-based methods. Finally, we will study concept-based XAI, the taxonomy and several existing methods.
 
 
 
