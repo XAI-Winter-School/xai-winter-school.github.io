@@ -164,6 +164,7 @@ Provisional schedule.
       <td class="contributed">
         <div class="contrib-container">
           <div><a href="#moritz-willig">Moritz Willig (C)</a></div>
+          <div><a href="#margaux-zaffran">Margaux Zaffran (C)</a></div>
         </div>
       </td> 
       <td class="contributed">
