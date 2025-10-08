@@ -228,14 +228,7 @@ List of confirmed speakers:
 _Abstract goes here…_
 -->
 
-<!-- ### <a id="julie-josse"></a>Julie Josse
-_Abstract goes here…_
--->
 
-<!-- 
-### <a id="martin-pawelczyk"></a>Martin Pawelczyk
-_Abstract goes here…_
--->
 
 ### <a id="arthur-gretton"></a>Arthur Gretton: *Causal Effect Estimation with Context and Confounders*
 **Abstract**: A fundamental causal modelling task is to predict the effect of an intervention (or treatment) on an outcome, given context/covariates. Examples include predicting the effect of a medical treatment on patient health given patient symptoms and demographic information, or predicting the effect of ticket pricing on airline sales given seasonal fluctuations in demand. The problem becomes especially challenging when the treatment and context are complex (for instance, "treatment" might be a web ad design or a radiotherapy plan), and when only observational data is available (i.e., we have access to historical data, but cannot intervene ourselves). The challenge is greater still when the covariates are not observed, and constitute a hidden source of confounding. I will give an overview of some practical tools and methods for estimating causal effects of complex, high dimensional treatments from observational data. The approach is based on conditional feature means, which represent conditional expectations of relevant model features. These features can be deep neural nets (adaptive, finite dimensional, learned from data), or kernel features (fixed, infinite dimensional, enforcing smoothness). When hidden confounding is present, a neural net implementation of instrumental variable regression can be used to correct for this confounding. The methods will be applied to modelling employment outcomes for the US Job Corps program for Disadvantaged Youth, and in policy evaluation for reinforcement learning.
@@ -267,6 +260,14 @@ _Abstract goes here…_
 
 ### <a id="jonas-wahl"></a>Jonas Wahl: *Are our DAGs correct? Recent developments in causal discovery evaluation*
 **Abstract**: Causal graphical models are considered important tools to integrate expert knowledge into statistical data analysis. As a consequence, practitioners often face the challenge to evaluate the quality of their hypothesized causal models. This issue becomes particularly salient for causal graphical models obtained through a causal discovery method in which case most or all of the available data has already been used in the discovery task. In this talk, we will review recent developments regarding the evaluation of causal structure learning methods and the quality of their outputs. In particular, we will discuss to which degree assumption violations can be detected in causal discovery and how method testing often introduces additional assumptions that need to be weighted carefully against the assumptions of the initial learning algorithm.
+
+
+### <a id="julie-josse"></a>Julie Josse: *Personalized Care Through Causal & Federated Learning: From Data to Decisions*
+**Abstract**: Understanding how to generalize causal conclusions beyond the sample of a randomized controlled trial (RCT) is a key challenge in modern causal inference. Traditional RCTs, while rigorous, often suffer from limited external validity: their participants do not always represent the real-world populations where medical decisions must be made. Generalization, or transportability methods, provide a principled way to bridge this gap. They allow researchers to transport treatment effect estimates from a study population to new target populations that may differ in their covariate distributions. In doing so, they offer an alternative perspective to traditional meta-analysis, the current gold standard in evidence-based medicine.In this tutorial, we introduce a unified framework for generalizing a broad class of first-moment causal effect measures (including, but not limited to, the risk difference and risk ratio) under covariate shift. We outline the key assumptions required, discuss identification and estimation strategies, and provide intuitive guidance on when and how these methods can be reliably applied in practice. Finally, we extend the discussion to settings where evidence arises from multiple clinical trials. We show how causal federated learning can be leveraged to aggregate information across distributed sources, enabling collaborative inference without direct data sharing.
+
+
+### <a id="martin-pawelczyk"></a>Martin Pawelczyk: *Efficiently Verifiable Proofs of Data Attribution*
+**Abstract**: Data attribution methods aim to answer useful counterfactual questions like "what would a ML model's prediction be if it were trained on a different dataset?" However, estimation of data attribution models through techniques like empirical influence or "datamodeling" remains very computationally expensive. This causes a critical trust issue: if only a few computationally rich parties can obtain data attributions, how can resource-constrained parties trust that the provided attributions are indeed "good," especially when they are used for important downstream applications (e.g., data pricing)? In this paper, we address this trust issue by proposing an interactive verification paradigm for data attribution. An untrusted and computationally powerful Prover learns data attributions, and then engages in an interactive proof with a resource-constrained Verifier. Our main result is a protocol that provides formal completeness, soundness, and efficiency guarantees in the sense of Probably-Approximately-Correct (PAC) verification. Importantly, our protocol ensures the Verifier's workload, measured by the number of independent model retrainings it must perform, scales only as O(1/epsilon); i.e., independently of the dataset size.
 
 
 ### <a id="mihaela-van-der-schaar"></a>Mihaela Van der Schaar: *It’s Time We Talked About Time: Making Time Central to Interpretability and Causality*
