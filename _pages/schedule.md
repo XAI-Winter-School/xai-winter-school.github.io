@@ -55,6 +55,10 @@ Provisional schedule.
   background-color: #f9f9d1;
   font-weight: 600;
 }
+.schedule .buffet {
+  background-color: #ffe6f2;  /* soft pink */
+  font-weight: 600;
+}
 .schedule caption {
   caption-side: bottom;
   text-align: left;
@@ -181,6 +185,14 @@ Provisional schedule.
         </div>
       </td> 
       <td>OFF</td>
+    </tr>
+    <tr>
+    <td>17:30–20:00</td>
+    <td class="buffet"><a>Welcoming Buffet</a></td>
+    <td>OFF</td>
+    <td>OFF</td>
+    <td>OFF</td>
+    <td>OFF</td>
     </tr>
   </tbody>
   <caption>P = Plenary, L = Lecture, C = Contributed</caption>
