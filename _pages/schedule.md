@@ -235,12 +235,6 @@ List of confirmed speakers:
 
 ## Abstracts
 
-<!-- 
-### <a id="krikamol-muandet"></a>Krikamol Muandet
-_Abstract goes here…_
--->
-
-
 
 ### <a id="arthur-gretton"></a>Arthur Gretton: *Causal Effect Estimation with Context and Confounders*
 **Abstract**: A fundamental causal modelling task is to predict the effect of an intervention (or treatment) on an outcome, given context/covariates. Examples include predicting the effect of a medical treatment on patient health given patient symptoms and demographic information, or predicting the effect of ticket pricing on airline sales given seasonal fluctuations in demand. The problem becomes especially challenging when the treatment and context are complex (for instance, "treatment" might be a web ad design or a radiotherapy plan), and when only observational data is available (i.e., we have access to historical data, but cannot intervene ourselves). The challenge is greater still when the covariates are not observed, and constitute a hidden source of confounding. I will give an overview of some practical tools and methods for estimating causal effects of complex, high dimensional treatments from observational data. The approach is based on conditional feature means, which represent conditional expectations of relevant model features. These features can be deep neural nets (adaptive, finite dimensional, learned from data), or kernel features (fixed, infinite dimensional, enforcing smoothness). When hidden confounding is present, a neural net implementation of instrumental variable regression can be used to correct for this confounding. The methods will be applied to modelling employment outcomes for the US Job Corps program for Disadvantaged Youth, and in policy evaluation for reinforcement learning.
@@ -276,6 +270,12 @@ _Abstract goes here…_
 
 ### <a id="julie-josse"></a>Julie Josse: *Personalized Care Through Causal & Federated Learning: From Data to Decisions*
 **Abstract**: Understanding how to generalize causal conclusions beyond the sample of a randomized controlled trial (RCT) is a key challenge in modern causal inference. Traditional RCTs, while rigorous, often suffer from limited external validity: their participants do not always represent the real-world populations where medical decisions must be made. Generalization, or transportability methods, provide a principled way to bridge this gap. They allow researchers to transport treatment effect estimates from a study population to new target populations that may differ in their covariate distributions. In doing so, they offer an alternative perspective to traditional meta-analysis, the current gold standard in evidence-based medicine.In this tutorial, we introduce a unified framework for generalizing a broad class of first-moment causal effect measures (including, but not limited to, the risk difference and risk ratio) under covariate shift. We outline the key assumptions required, discuss identification and estimation strategies, and provide intuitive guidance on when and how these methods can be reliably applied in practice. Finally, we extend the discussion to settings where evidence arises from multiple clinical trials. We show how causal federated learning can be leveraged to aggregate information across distributed sources, enabling collaborative inference without direct data sharing.
+
+
+
+### <a id="krikamol-muandet"></a>Krikamol Muandet: *An Explanation Game: From Mechanistic Interpretability to Strategic Explanation Design*
+**Abstract**: A good explanation enables effective communication, but a great one shapes behaviour. Hence, it should not only be faithful to the internal mechanisms it seeks to elucidate but also serve as an instrument to inform, convince, and guide others toward desirable actions. In this talk, I will first show how tools from causal inference can be used to systematically examine the relationship between a model’s predictions and its explanations. Specifically, we study the relationship between explanations and predictions by measuring the treatment effects of interventions on their causal ancestors—such as hyperparameters and inputs used to generate saliency-based explanations. Our results reveal that the alignment between explanation and prediction is far from ideal, and that this gap widens for higher-performing models—the very models most likely to be deployed. I will then turn to the problem of explanation design in algorithmic decision-making with strategic agents. In this setting, explanations themselves become part of an interactive game. I will highlight two key challenges that emerge: competitive selection and the sufficiency of partial explanation design, and discuss how these challenges shape our understanding of explanations as both epistemic and strategic objects.
+
 
 
 ### <a id="martin-pawelczyk"></a>Martin Pawelczyk: *Efficiently Verifiable Proofs of Data Attribution*
