@@ -25,7 +25,10 @@ main:
     
   - title: "Sponsors"
     url: /sponsors/
-    
+
+  - title: "Code of Conduct"
+    url: /codeofconduct/
+
   # - title: "CV"
   #   url: /cv-json/
     
