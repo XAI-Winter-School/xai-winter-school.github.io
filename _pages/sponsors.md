@@ -94,13 +94,35 @@ author_profile: true
 
 <div class="sponsor">
   <div class="sponsor-logo">
-    <img src="/images/imgswinterschool/logo_SFDS.png" alt="ELLIS">
+    <img src="/images/imgswinterschool/logo_SFDS.png" alt="SFDS">
   </div>
   <div class="info">
     <h3><a href="https://www.sfds.asso.fr/" target="_blank" rel="noopener">SFdS - Société Française de Statistique</a></h3>
     <!-- <p>(SFdS) - Société Française de Statistique </p> -->
   </div>
 </div>
+
+<div class="sponsor">
+  <div class="sponsor-logo">
+    <img src="/images/imgswinterschool/logo_anr.jpg" alt="ANR">
+  </div>
+  <div class="info">
+    <h3><a href="https://anr.fr/" target="_blank" rel="noopener">ANR - Agenge Nationale de la Recherche</a></h3>
+    <!-- <p>(SFdS) - Société Française de Statistique </p> -->
+  </div>
+</div>
+
+<div class="sponsor">
+  <div class="sponsor-logo">
+    <img src="/images/imgswinterschool/logo_FSMP.png" alt="FSMP">
+  </div>
+  <div class="info">
+    <h3><a href="https://sciencesmaths-paris.fr/" target="_blank" rel="noopener">FSMP - Fondation Sciences Mathématiques de Paris</a></h3>
+    <!-- <p>(SFdS) - Société Française de Statistique </p> -->
+  </div>
+</div>
+
+
 
 
 
