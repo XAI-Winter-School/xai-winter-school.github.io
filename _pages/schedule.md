@@ -142,7 +142,7 @@ Provisional schedule.
     <tr>
       <td>10:30–12:00</td>
       <td class="lecture"><a href="#julie-josse">Julie Josse (L)</a></td>
-      <td class="lecture"><a href="#erwan-scornet">Erwan Scornet (L)</a></td>
+      <td class="lecture"><a href="#julie-josse">Julie Josse (L)</a></td>
       <td class="lecture"><a href="#ronan-sicre">Ronan Sicre (L)</a></td>
       <td class="lecture"><a href="#erwan-scornet">Erwan Scornet (L)</a></td>
       <td class="lecture"><a href="#erwan-scornet">Erwan Scornet (L)</a></td>
@@ -154,7 +154,7 @@ Provisional schedule.
     <tr>
       <td>13:30–15:00</td>
       <td class="lecture"><a href="#ronan-sicre">Ronan Sicre (L)</a></td>
-      <td class="lecture"><a href="#julie-josse">Julie Josse (L)</a></td>
+      <td class="lecture"><a href="#erwan-scornet">Erwan Scornet (L)</a></td>
       <td><a href="#industry-side-event">Industry side-event</a></td>
       <td class="lecture"><a href="#ronan-sicre">Ronan Sicre (L)</a></td>
       <td class="plenary"><a href="#arthur-gretton">Arthur Gretton (P)</a></td>
