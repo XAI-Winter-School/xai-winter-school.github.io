@@ -133,7 +133,7 @@ Provisional schedule.
       <td class="plenary"><a href="#krikamol-muandet">Krikamol Muandet (P)</a></td>
       <td class="plenary"><a href="#gregoire-montavon">Grégoire Montavon (P)</a></td>
       <td class="plenary"><a href="#ulrike-von-luxburg">Ulrike von Luxburg (P)</a></td>
-      <td class="plenary"><a href="#mihaela-van-der-schaar">Mihaela Van der Schaar (P)</a></td>
+      <td>OFF</td>
     </tr>
     <tr>
       <td>10:00–10:30</td>
@@ -280,9 +280,6 @@ List of confirmed speakers:
 
 ### <a id="martin-pawelczyk"></a>Martin Pawelczyk: *Efficiently Verifiable Proofs of Data Attribution*
 **Abstract**: Data attribution methods aim to answer useful counterfactual questions like "what would a ML model's prediction be if it were trained on a different dataset?" However, estimation of data attribution models through techniques like empirical influence or "datamodeling" remains very computationally expensive. This causes a critical trust issue: if only a few computationally rich parties can obtain data attributions, how can resource-constrained parties trust that the provided attributions are indeed "good," especially when they are used for important downstream applications (e.g., data pricing)? In this paper, we address this trust issue by proposing an interactive verification paradigm for data attribution. An untrusted and computationally powerful Prover learns data attributions, and then engages in an interactive proof with a resource-constrained Verifier. Our main result is a protocol that provides formal completeness, soundness, and efficiency guarantees in the sense of Probably-Approximately-Correct (PAC) verification. Importantly, our protocol ensures the Verifier's workload, measured by the number of independent model retrainings it must perform, scales only as O(1/epsilon); i.e., independently of the dataset size.
-
-
-### <a id="mihaela-van-der-schaar"></a>Mihaela Van der Schaar: *It’s Time We Talked About Time: Making Time Central to Interpretability and Causality*
 
 
 

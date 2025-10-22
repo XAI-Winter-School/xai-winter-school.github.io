@@ -91,15 +91,6 @@ author_profile: true
 </div>
 
 <div class="person">
-  <img src="/images/imgswinterschool/pics_speakers/pic_mihaela_van_der_schaar.jpg" alt="Mihaela van der Schaar">
-  <div class="info">
-    <!-- <h3>Mihaela van der Schaar</h3> -->
-    <h3><a href="https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/" target="_blank" rel="noopener">Mihaela van der Schaar</a></h3>
-    <p>John Humphrey Plummer Professor of ML, AI & Medicine — University of Cambridge</p>
-  </div>
-</div>
-
-<div class="person">
   <img src="/images/imgswinterschool/pics_speakers/pic_ronan_sicre.png" alt="Ronan Sicre">
   <div class="info">
     <!-- <h3>Ronan Sicre</h3> -->
