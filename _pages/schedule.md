@@ -297,7 +297,7 @@ List of confirmed speakers:
 ### <a id="ronan-sicre"></a>Ronan Sicre: *Visual explainability*
 **Abstract**: This course aims at giving a panorama of XAI methods applied to visual recognition models. We will first introduce the computer vision fields through the many tasks that are studied in the field. We will then detail the specifics of convolutional architectures, then detail a number of post-hoc methods designed for such models. We will later focus on the evaluation of these methods, with some discussions. Then, we will study transformers architectures and present post-hoc methods designed for such models. We will then move to transparency and hybrid methods, before discussing prototypes and part-based methods. Finally, we will study concept-based XAI, the taxonomy and several existing methods.
 
-Links to the lecture slides (also available at https://www.irit.fr/~Ronan.Sicre/enseignement/):
+Links to the lecture slides (also available at [Ronan's webpage](https://www.irit.fr/~Ronan.Sicre/enseignement/)):
 
 - [Part1](https://www.irit.fr/~Ronan.Sicre/wp-content/uploads/sites/249/2025/10/Part1_XAI-intro.pdf): XAI intro 
 
