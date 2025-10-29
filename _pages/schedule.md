@@ -243,6 +243,9 @@ List of confirmed speakers:
 ### <a id="erwan-scornet"></a>Erwan Scornet: *Explainability via tree-based methods*
 **Abstract**: In many sensitive areas like medicine, designing an algorithm with good predictive performances is not enough: there is a need to understand the decision process at work inside the algorithm to check for undesirable behavior (e.g., fairness issues) or to gain knowledge about the underlying phenomenon. Numerous (heuristical) tools have been proposed to open black-box algorithms in order to understand their prediction. Variable importances are among the most explainable tools as they are generally easy to compute and understand at first sight. In this lecture, we will talk about tree-based methods and how variable importances can be used to provide (un)clear explanations about their decision process. We will also take a look at decision rules that can directly provide interpretable predictions.
 
+*The lecture slides can be found [here](/files/Erwan_presentation.pdf).*
+
+
 
 ### <a id="fabien-faivre"></a>Fabien Faivre: *Causality? What good is IT for an actuary?*
 **Abstract**: Actuaries are a centerpiece of any insurance company risk management framework. Actuaries are traditionally in charge of risk assessment for technical pricing and thoughout the years extended their presence to reserving, economic capital evaluation or Assel Liability Management. They routinely suggest risk mitigation strategies be it through reinsurance program design or other means as appropriate. However, despite their skills in statistics, and over the recent years, data science, a nagging gap remains in their training: the absence of any formal causal course syllabus. This talk will go over a personnal journey towards the discovery of causality, potential application for insurance company and the work being currently set up at Macif, a French mutual insurance company, at the interplay of climate risk, prevention and actuarial science.
@@ -254,6 +257,8 @@ List of confirmed speakers:
 
 ### <a id="gian-marco-paldino"></a>Gian Marco Paldino: *Causal Discovery in Multivariate Time Series through Mutual Information Featurization*
 **Abstract**: Our work addresses the fundamental challenge of discovering causal relationships in complex multivariate time series. Traditional methods often struggle with restrictive linear assumptions or become uninformative in the presence of intricate, non-linear dynamics. We propose Temporal Dependency to Causality (TD2C), a supervised learning framework that shifts from statistical testing to pattern recognition. TD2C learns to recognize causal signatures from information-theoretic and statistical descriptors, demonstrating remarkable zero-shot generalization and state-of-the-art performance, particularly in high-dimensional and non-linear settings. (**Related paper**: https://arxiv.org/abs/2508.01848)
+
+*The slides of the talk can be found [here](https://www.researchgate.net/publication/396933445_Causal_Discovery_in_Multivariate_Time_Series_through_Mutual_Information_Featurization).*
 
 
 ### <a id="gjergji-kasneci"></a>Gjergji Kasneci: *Structure-Aware Actionable Recourse and Graph Counterfactuals*
@@ -267,9 +272,14 @@ List of confirmed speakers:
 ### <a id="jonas-wahl"></a>Jonas Wahl: *Are our DAGs correct? Recent developments in causal discovery evaluation*
 **Abstract**: Causal graphical models are considered important tools to integrate expert knowledge into statistical data analysis. As a consequence, practitioners often face the challenge to evaluate the quality of their hypothesized causal models. This issue becomes particularly salient for causal graphical models obtained through a causal discovery method in which case most or all of the available data has already been used in the discovery task. In this talk, we will review recent developments regarding the evaluation of causal structure learning methods and the quality of their outputs. In particular, we will discuss to which degree assumption violations can be detected in causal discovery and how method testing often introduces additional assumptions that need to be weighted carefully against the assumptions of the initial learning algorithm.
 
+*The slides of the talk can be found [here](/files/Jonas_Paris_2025.pdf).*
+
+
 
 ### <a id="julie-josse"></a>Julie Josse: *Personalized Care Through Causal & Federated Learning: From Data to Decisions*
 **Abstract**: Understanding how to generalize causal conclusions beyond the sample of a randomized controlled trial (RCT) is a key challenge in modern causal inference. Traditional RCTs, while rigorous, often suffer from limited external validity: their participants do not always represent the real-world populations where medical decisions must be made. Generalization, or transportability methods, provide a principled way to bridge this gap. They allow researchers to transport treatment effect estimates from a study population to new target populations that may differ in their covariate distributions. In doing so, they offer an alternative perspective to traditional meta-analysis, the current gold standard in evidence-based medicine.In this tutorial, we introduce a unified framework for generalizing a broad class of first-moment causal effect measures (including, but not limited to, the risk difference and risk ratio) under covariate shift. We outline the key assumptions required, discuss identification and estimation strategies, and provide intuitive guidance on when and how these methods can be reliably applied in practice. Finally, we extend the discussion to settings where evidence arises from multiple clinical trials. We show how causal federated learning can be leveraged to aggregate information across distributed sources, enabling collaborative inference without direct data sharing.
+
+*The lecture slides can be found [here](https://juliejosse.com/wp-content/uploads/2025/10/CausalXAI21oct2025.pdf).*
 
 
 
@@ -297,7 +307,7 @@ List of confirmed speakers:
 ### <a id="ronan-sicre"></a>Ronan Sicre: *Visual explainability*
 **Abstract**: This course aims at giving a panorama of XAI methods applied to visual recognition models. We will first introduce the computer vision fields through the many tasks that are studied in the field. We will then detail the specifics of convolutional architectures, then detail a number of post-hoc methods designed for such models. We will later focus on the evaluation of these methods, with some discussions. Then, we will study transformers architectures and present post-hoc methods designed for such models. We will then move to transparency and hybrid methods, before discussing prototypes and part-based methods. Finally, we will study concept-based XAI, the taxonomy and several existing methods.
 
-Links to the lecture slides (also available at [Ronan's webpage](https://www.irit.fr/~Ronan.Sicre/enseignement/)):
+*Links to the lecture slides (also available at [Ronan's webpage](https://www.irit.fr/~Ronan.Sicre/enseignement/)):*
 
 - [Part1](https://www.irit.fr/~Ronan.Sicre/wp-content/uploads/sites/249/2025/10/Part1_XAI-intro.pdf): XAI intro 
 
