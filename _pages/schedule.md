@@ -299,6 +299,7 @@ List of confirmed speakers:
 ### <a id="moritz-willig"></a>Moritz Willig: *Beyond Causal Parrots: The Role of Meta-Causality for Genuine Causal Understanding*
 **Abstract**: The majority of today's machine learning models are trained using associational methods, raising fundamental questions about their ability to advance beyond the first rung of the causal ladder. While natural language allows for the expression of higher-level causal facts within training data, large language models often still act as mere "Causal Parrots". They mimic causal language but lack an understanding of the underlying mechanisms. This prompts a fundamental question: can systems achieve genuine understanding without knowing how their own (causal) knowledge is formed? In this talk, I introduce Meta-Causal Models, a novel framework designed to explicitly model and reason about the emergence and change of causal relationships. I demonstrate its power through applications in qualitative modeling, attribution under switching causal relations, and adaptive decision-making. Ultimately, I argue that meta-causal understanding may be the dividing line between systems that merely describe the world from those that truly understand it.
 
+*The slides of the talk can be found [here](/files/Moritz_XAICausalWinterSchool.pdf).*
 
 
 
